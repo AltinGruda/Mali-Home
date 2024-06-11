@@ -49,15 +49,14 @@ export function Portfolio() {
       <div className="w-full max-w-7xl px-6 lg:px-8 mx-auto">
         <div className="flex items-center justify-center flex-col gap-5 mb-14 animate-in fade-in slide-in-from-top duration-300">
           <span className="bg-indigo-50 text-indigo-500 text-xs font-medium px-3.5 py-1 rounded-full">
-            Products
+            Produktet
           </span>
           <h2 className="font-manrope font-bold text-4xl text-gray-900 text-center">
-            Our Collections
+            Koleksioni Ynë
           </h2>
           <p className="text-lg font-normal text-gray-500 max-w-3xl mx-auto text-center">
-            Transform your home into a sanctuary with our exquisite furniture
-            collections. Discover timeless pieces that blend comfort, style, and
-            craftsmanship.
+            Transformoni shtëpinë tuaj në një parajsë me koleksionet tona që
+            ndërthurin komoditetin, stilin dhe mjeshtërinë.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-14">

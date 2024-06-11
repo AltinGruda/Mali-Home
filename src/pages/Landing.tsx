@@ -21,10 +21,9 @@ export function Landing2() {
               <span>2023</span> <span>2024</span>
             </h4>
             <p>
-              At Mali Home, we believe in the art of fine furniture making.
-              We've been dedicated to crafting high-quality, beautiful furniture
-              that turns houses into homes. Our passion for excellence and
-              commitment to customer satisfaction set us apart.
+              Te Mali Home, besojmë në artin e prodhimit të mobiljeve të bukura.
+              Pasioni ynë për përsosmërinë dhe përkushtimi ndaj kënaqshmërisë së
+              klientëve na dallon nga të tjerët.
             </p>
           </article>
         </div>
@@ -36,10 +35,12 @@ export function Landing2() {
         </div>
         <div className="grid-item grid-item--tertiary grid-item--content">
           <article className="article">
-            <h2 className="text-xl mb-4">Want to see more of our products?</h2>
+            <h2 className="text-xl mb-4">
+              Dëshironi të shihni produktet tona?
+            </h2>
             <Link to="/products">
               <button className="bg-rose-500 hover:bg-rose-700 text-white font-bold py-2 px-4 rounded">
-                Click Here
+                Klikoni Këtu
               </button>
             </Link>
           </article>
