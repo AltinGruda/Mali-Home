@@ -1,22 +1,36 @@
 import { useState } from "react";
+import One from "../assets/mali/1.jpg";
+import Two from "../assets/mali/2.jpg";
+import Three from "../assets/mali/3.jpg";
+import Four from "../assets/mali/4.jpg";
+import Five from "../assets/mali/5.jpg";
+import Six from "../assets/mali/6.jpg";
+import Seven from "../assets/mali/7.jpg";
+import Eight from "../assets/mali/8.jpg";
+import Nine from "../assets/mali/9.jpg";
+import Ten from "../assets/mali/10.jpg";
+import Eleven from "../assets/mali/11.jpg";
+import Twelve from "../assets/mali/12.jpg";
+import Thirteen from "../assets/mali/13.jpg";
+import Fourteen from "../assets/mali/14.jpg";
 import { Contact } from "../components/Contact";
 
 export function Portfolio() {
   const [photos] = useState([
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/14_cxrsym.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/2_b97mxs.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/13_xd6rzz.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/4_r64exo.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/12_kfvhhv.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410027/mali-home/11_ene8bg.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/7_vjb410.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/10_exvo98.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/9_npetlo.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/8_sjrkp0.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/6_rkoyau.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/5_uq9vma.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/3_bkhv5r.jpg",
-    "https://res.cloudinary.com/drm4hffoi/image/upload/v1719410026/mali-home/1_spzx49.jpg",
+    One,
+    Two,
+    Three,
+    Four,
+    Five,
+    Six,
+    Seven,
+    Eight,
+    Nine,
+    Ten,
+    Eleven,
+    Twelve,
+    Thirteen,
+    Fourteen,
   ]);
 
   const [selectedPhoto, setSelectedPhoto] = useState(null);
