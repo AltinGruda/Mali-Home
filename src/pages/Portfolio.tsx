@@ -35,6 +35,7 @@ export function Portfolio() {
 
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
+  //@ts-expect-error photo has no type at the moment
   const openModal = (photo) => {
     setSelectedPhoto(photo);
   };
